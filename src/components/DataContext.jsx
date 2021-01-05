@@ -44,8 +44,9 @@ const reducer = (state, action) => {
 
 		case RESET_DATA:
 			const localData = localStorage.getItem('stardew-helper');
-			if (localData) return JSON.parse(localData);
-			else return data;
+			if (localData) {
+				return JSON.parse(localData).map((item) => ({ ...item, show: true }));
+			} else return data;
 
 		case FILTER_AND: {
 			const { filters, term } = action.value;
