@@ -4,12 +4,25 @@ import ReactDOM from 'react-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 
 import Home from 'screens/Home';
+import DataContext from 'components/DataContext';
 import reportWebVitals from './reportWebVitals';
+
+const data = require('constants/data.json');
+window.reshape = () => {
+	const newData = {};
+	data.forEach(({ id, ...rest }) => {
+		newData[id] = rest;
+	});
+
+	console.log(JSON.stringify(newData));
+};
 
 ReactDOM.render(
 	<React.StrictMode>
 		<ChakraProvider>
-			<Home />
+			<DataContext>
+				<Home />
+			</DataContext>
 		</ChakraProvider>
 	</React.StrictMode>,
 	document.getElementById('root')

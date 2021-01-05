@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext, useMemo } from 'react';
 import {
 	Flex,
 	Table,
@@ -6,7 +6,6 @@ import {
 	Tbody,
 	Tr,
 	Th,
-	Td,
 	Box,
 	Input,
 	InputGroup,
@@ -15,89 +14,69 @@ import {
 	Button,
 } from '@chakra-ui/react';
 
+import { DataContext } from 'components/DataContext';
 import ToggleButton from 'components/ToggleButton';
-const originalData = require('constants/data');
+
+import { headers, seasons } from './constants';
+import TableRow from './components/TableRow';
 
 const Home = () => {
-	const [data, setData] = useState(originalData);
+	const { state: data, dispatch } = useContext(DataContext);
 	const [filters, setFilters] = useState([]);
 	const [term, setTerm] = useState('');
 	const [behavior, setBehavior] = useState('OR');
-	const headers = ['seasons', 'item', 'room', 'bundle', 'details'];
-	const seasons = ['spring', 'summer', 'fall', 'winter', 'any'];
+
+	const actions = useMemo(
+		() => ({
+			resetData: () => {
+				dispatch({ type: 'RESET_DATA' });
+			},
+			toggleCollected: (value) => {
+				dispatch({ type: 'TOGGLE_COLLECTED', value });
+			},
+			toggleSubmitted: (value) => {
+				dispatch({ type: 'TOGGLE_SUBMITTED', value });
+			},
+		}),
+		[dispatch]
+	);
+
+	const filter = useMemo(
+		() => ({
+			AND: () => {
+				dispatch({ type: 'FILTER_AND', value: { filters, term } });
+			},
+			OR: () => {
+				dispatch({ type: 'FILTER_OR', value: { filters, term } });
+			},
+		}),
+		[filters, term, dispatch]
+	);
 
 	useEffect(() => {
 		if (filters.length === 0 && term === '') {
-			setData(originalData);
+			actions.resetData();
 		} else {
 			if (behavior === 'AND') {
-				const filteredData = originalData.filter((item) => {
-					const matchedSeason = filters.reduce(
-						(prev, curr) => item.seasons.includes(curr) && prev,
-						true
-					);
-
-					if (term === '') return matchedSeason;
-
-					const matchedTerm = Object.keys(item).reduce((prev, curr) => {
-						if (typeof item[curr] === 'string' && item[curr].toLowerCase().includes(term))
-							return prev || true;
-						if (typeof item[curr] === 'object') {
-							for (const l of Object.keys(item[curr])) {
-								if (item[curr][l].includes(term)) return prev || true;
-							}
-						}
-						return prev || false;
-					}, false);
-
-					return matchedSeason && matchedTerm;
-				});
-				setData(filteredData);
+				filter.AND();
 			} else {
-				const filteredData = originalData.filter((item) => {
-					for (const f of filters) {
-						if (item.seasons.includes(f)) return true;
-						else if (filters.includes('any') && item.seasons.length === 0) return true;
-					}
-					if (term !== '') {
-						for (const k of Object.keys(item)) {
-							if (typeof item[k] === 'string' && item[k].toLowerCase().includes(term)) return true;
-							if (typeof item[k] === 'object') {
-								for (const l of Object.keys(item[k])) {
-									if (item[k][l].includes(term)) return true;
-								}
-							}
-						}
-					}
-					return false;
-				});
-				setData(filteredData);
+				filter.OR();
 			}
 		}
-	}, [filters, term, behavior]);
+	}, [filters, behavior, term, actions, filter]);
 
-	const filterSeason = (event) => {
-		const season = event.target.innerText;
-		const on = event.on;
-		console.log({ season, on });
-
-		if (on) {
-			if (filters.includes(season)) {
-				// this shouldn't happen, so not handling it
-				console.warn('unreachable state was reached');
-			} else {
-				setFilters([season, ...filters]);
-			}
+	const filterSeason = ({ on, target: { innerText: season } }) => {
+		if (Boolean(on)) {
+			setFilters([season, ...filters]);
 		} else {
 			const idx = filters.indexOf(season);
-			if (idx > -1) {
-				const newFilters = [...filters];
-				newFilters.splice(idx, 1);
-				// const newFilters = filters.splice(idx, 1);
-				console.log('buildFilter', newFilters);
-				setFilters(newFilters);
-			}
+			setFilters([...filters.slice(0, idx), ...filters.slice(idx + 1)]);
 		}
+	};
+
+	const onCheckboxChange = (key, id) => {
+		key === 'collected' && actions.toggleCollected(id);
+		key === 'submitted' && actions.toggleSubmitted(id);
 	};
 
 	const changeBehavior = () => {
@@ -144,22 +123,11 @@ const Home = () => {
 						</Tr>
 					</Thead>
 					<Tbody>
-						{data.map((item, i) => (
-							<Tr key={i}>
-								{headers.map((key) => (
-									<Td key={`${i}-${key}`}>
-										{
-											// handle the season key slightly differently
-											key === 'seasons'
-												? item[key].length === 0
-													? ''
-													: item[key].join(',')
-												: item[key]
-										}
-									</Td>
-								))}
-							</Tr>
-						))}
+						{data.map((item) =>
+							item.show ? (
+								<TableRow key={item.id} item={item} onCheckboxChange={onCheckboxChange} />
+							) : null
+						)}
 					</Tbody>
 				</Table>
 			</Flex>
