@@ -87,13 +87,13 @@ const Home = () => {
 	return (
 		<Box>
 			<Flex direction='column'>
-				<Flex direction='row'>
+				<Flex direction='row' pos='sticky' top={0} bg='white' zIndex={1000}>
 					<InputGroup>
 						<InputLeftAddon children='Search' />
 						<Input type='text' onChange={(event) => setTerm(event.target.value.toLowerCase())} />
 					</InputGroup>
 				</Flex>
-				<Flex direction='row'>
+				<Flex direction='row' pos='sticky' top={10} bg='white' zIndex={1000}>
 					<Button onClick={changeBehavior} m={2} size='sm' _focus={null}>
 						{behavior}
 					</Button>
@@ -113,10 +113,10 @@ const Home = () => {
 					))}
 				</Flex>
 				<Table>
-					<Thead pos='sticky' bg='lightblue'>
+					<Thead pos='sticky' zIndex={1000}>
 						<Tr>
 							{headers.map((key) => (
-								<Th pos='sticky' top={0} bg='lightblue' key={key}>
+								<Th pos='sticky' top={88} bg='lightblue' key={key}>
 									{key}
 								</Th>
 							))}
