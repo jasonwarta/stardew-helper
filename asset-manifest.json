@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/github.io/stardew-helper/static/js/main.f6918cf9.chunk.js",
+    "main.js.map": "/github.io/stardew-helper/static/js/main.f6918cf9.chunk.js.map",
+    "runtime-main.js": "/github.io/stardew-helper/static/js/runtime-main.c06c4d5f.js",
+    "runtime-main.js.map": "/github.io/stardew-helper/static/js/runtime-main.c06c4d5f.js.map",
+    "static/js/2.615d6ed0.chunk.js": "/github.io/stardew-helper/static/js/2.615d6ed0.chunk.js",
+    "static/js/2.615d6ed0.chunk.js.map": "/github.io/stardew-helper/static/js/2.615d6ed0.chunk.js.map",
+    "static/js/3.45263dc1.chunk.js": "/github.io/stardew-helper/static/js/3.45263dc1.chunk.js",
+    "static/js/3.45263dc1.chunk.js.map": "/github.io/stardew-helper/static/js/3.45263dc1.chunk.js.map",
+    "index.html": "/github.io/stardew-helper/index.html",
+    "static/js/2.615d6ed0.chunk.js.LICENSE.txt": "/github.io/stardew-helper/static/js/2.615d6ed0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c06c4d5f.js",
+    "static/js/2.615d6ed0.chunk.js",
+    "static/js/main.f6918cf9.chunk.js"
+  ]
+}
