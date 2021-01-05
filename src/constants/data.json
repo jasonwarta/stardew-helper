@@ -1,0 +1,898 @@
+[
+	{
+		"seasons": [],
+		"item": "10,000G",
+		"room": "Bulletin Board",
+		"bundle": "Vault Bundle",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "2,500G",
+		"room": "Bulletin Board",
+		"bundle": "Vault Bundle",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "25,000G",
+		"room": "Bulletin Board",
+		"bundle": "Vault Bundle",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "5,000G",
+		"room": "Bulletin Board",
+		"bundle": "Vault Bundle",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Apple",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Apple x10",
+		"room": "Bulletin Board",
+		"bundle": "Fodder Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Apricot",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Aquamarine",
+		"room": "Bulletin Board",
+		"bundle": "Dye Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Bat Wing x10",
+		"room": "Boiler room",
+		"bundle": "Adventurer's Bundle (2)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Blackberry",
+		"room": "Crafts room",
+		"bundle": "Fall Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Blueberry",
+		"room": "Pantry",
+		"bundle": "Summer Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Bream",
+		"room": "Fish Tank",
+		"bundle": "Night Fishing Bundle (3)",
+		"details": "river, all seasons, after 6pm"
+	},
+	{
+		"seasons": [],
+		"item": "Bullhead",
+		"room": "Fish Tank",
+		"bundle": "Lake Fish Bundle (4)",
+		"details": "mountain lake, all seasons"
+	},
+	{
+		"seasons": [],
+		"item": "Cactus Fruit",
+		"room": "Crafts room",
+		"bundle": "Exotic Foraging Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall", "summer", "spring"],
+		"item": "Carp",
+		"room": "Fish Tank",
+		"bundle": "Lake Fish Bundle (4)",
+		"details": "mountain lake, spring, summer, fall"
+	},
+	{
+		"seasons": ["fall", "spring"],
+		"item": "Catfish",
+		"room": "Fish Tank",
+		"bundle": "River Fish Bundle (4)",
+		"details": "river, secret woods, spring/fall, when raining"
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Cauliflower",
+		"room": "Pantry",
+		"bundle": "Spring Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Cave Carrot",
+		"room": "Crafts room",
+		"bundle": "Exotic Foraging Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Cheese",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Cherry",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Chub",
+		"room": "Bulletin Board",
+		"bundle": "Field Research Bundle (4)",
+		"details": "mountain lake, forest river, all seasons"
+	},
+	{
+		"seasons": [],
+		"item": "Clam",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Cloth",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Cockle",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Coconut",
+		"room": "Crafts room",
+		"bundle": "Exotic Foraging Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Common Mushroom",
+		"room": "Crafts room",
+		"bundle": "Fall Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Copper Bar",
+		"room": "Boiler room",
+		"bundle": "Blacksmith's Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Corn",
+		"room": "Pantry",
+		"bundle": "Fall Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Corn x5 (Gold Star)",
+		"room": "Pantry",
+		"bundle": "Quality Crops Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Crab",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Crayfish",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": ["winter"],
+		"item": "Crocus",
+		"room": "Crafts room",
+		"bundle": "Winter Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["winter"],
+		"item": "Crystal Fruit",
+		"room": "Crafts room",
+		"bundle": "Winter Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Daffodil",
+		"room": "Crafts room",
+		"bundle": "Spring Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Dandelion",
+		"room": "Crafts room",
+		"bundle": "Spring Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Duck Egg",
+		"room": "Pantry",
+		"bundle": "Animal Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Duck Feather",
+		"room": "Bulletin Board",
+		"bundle": "Dye Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Earth Crystal",
+		"room": "Boiler room",
+		"bundle": "Geologist's Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall", "spring"],
+		"item": "Eel",
+		"room": "Fish Tank",
+		"bundle": "Night Fishing Bundle (3)",
+		"details": "ocean/beach farm, spring/fall, when raining, from 4pm to 2pm"
+	},
+	{
+		"seasons": [],
+		"item": "Egg (Large and brown)",
+		"room": "Pantry",
+		"bundle": "Animal Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Egg (Large and white)",
+		"room": "Pantry",
+		"bundle": "Animal Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Eggplant",
+		"room": "Pantry",
+		"bundle": "Fall Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Fiddlehead Fern",
+		"room": "Bulletin Board",
+		"bundle": "Chef's Bundle (6)",
+		"details": "foraging in secret woods"
+	},
+	{
+		"seasons": [],
+		"item": "Fire Quartz",
+		"room": "Boiler room",
+		"bundle": "Geologist's Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Fried Egg",
+		"room": "Bulletin Board",
+		"bundle": "Chef's Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Frozen Geode",
+		"room": "Bulletin Board",
+		"bundle": "Field Research Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Frozen Tear",
+		"room": "Boiler room",
+		"bundle": "Geologist's Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Ghostfish",
+		"room": "Fish Tank",
+		"bundle": "Specialty Fish Bundle (4)",
+		"details": "in the mine, 20th or 60th floor, any season"
+	},
+	{
+		"seasons": [],
+		"item": "Goat Cheese",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Goat Milk (Large)",
+		"room": "Pantry",
+		"bundle": "Animal Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Gold Bar",
+		"room": "Boiler room",
+		"bundle": "Blacksmith's Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Grape",
+		"room": "Crafts room",
+		"bundle": "Summer Foraging Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Green Bean",
+		"room": "Pantry",
+		"bundle": "Spring Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Hardwood x10",
+		"room": "Crafts room",
+		"bundle": "Construction Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Hay x10",
+		"room": "Bulletin Board",
+		"bundle": "Fodder Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Hazelnut",
+		"room": "Crafts room",
+		"bundle": "Fall Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Honey",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Hot Pepper",
+		"room": "Pantry",
+		"bundle": "Summer Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Iron Bar",
+		"room": "Boiler room",
+		"bundle": "Blacksmith's Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Jelly",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Largemouth Bass",
+		"room": "Fish Tank",
+		"bundle": "Lake Fish Bundle (4)",
+		"details": "mountain lake, all seasons, usually farther from shore"
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Leek",
+		"room": "Crafts room",
+		"bundle": "Spring Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Lobster",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Maki Roll",
+		"room": "Bulletin Board",
+		"bundle": "Chef's Bundle (6)",
+		"details": "recipe from Queen of Sauce or the Saloon"
+	},
+	{
+		"seasons": [],
+		"item": "Maple Syrup",
+		"room": "Crafts room",
+		"bundle": "Exotic Foraging Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Maple Syrup",
+		"room": "Bulletin Board",
+		"bundle": "Chef's Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Melon",
+		"room": "Pantry",
+		"bundle": "Summer Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Melon x5 (Gold Star)",
+		"room": "Pantry",
+		"bundle": "Quality Crops Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Milk",
+		"room": "Pantry",
+		"bundle": "Animal Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Morel",
+		"room": "Crafts room",
+		"bundle": "Exotic Foraging Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Mussel",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Nautilus Shell",
+		"room": "Bulletin Board",
+		"bundle": "Field Research Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Oak Resin",
+		"room": "Crafts room",
+		"bundle": "Exotic Foraging Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Oak Resin",
+		"room": "Bulletin Board",
+		"bundle": "Enchanter's Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Orange",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Oyster",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Parship x5 (Gold Star)",
+		"room": "Pantry",
+		"bundle": "Quality Crops Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Parsnip",
+		"room": "Pantry",
+		"bundle": "Spring Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Peach",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Periwinkle",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Pine Tar",
+		"room": "Crafts room",
+		"bundle": "Exotic Foraging Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Pomegranate",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Pomegranate",
+		"room": "Bulletin Board",
+		"bundle": "Enchanter's Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Poppy",
+		"room": "Bulletin Board",
+		"bundle": "Chef's Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Potato",
+		"room": "Pantry",
+		"bundle": "Spring Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Pufferfish",
+		"room": "Fish Tank",
+		"bundle": "Specialty Fish Bundle (4)",
+		"details": "beach, summer, sunny days, between 12pm and 4pm"
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Pumpkin",
+		"room": "Pantry",
+		"bundle": "Fall Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Pumpkin x5 (Gold Star)",
+		"room": "Pantry",
+		"bundle": "Quality Crops Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Purple Mushroom",
+		"room": "Crafts room",
+		"bundle": "Exotic Foraging Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Purple Mushroom",
+		"room": "Bulletin Board",
+		"bundle": "Field Research Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Quartz",
+		"room": "Boiler room",
+		"bundle": "Geologist's Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Rabbit's Foot",
+		"room": "Bulletin Board",
+		"bundle": "Enchanter's Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Red Cabbage",
+		"room": "Bulletin Board",
+		"bundle": "Dye Bundle (6)",
+		"details": "buy seeds from General Store in year 2+"
+	},
+	{
+		"seasons": ["summer", "fall"],
+		"item": "Red Mushroom",
+		"room": "Crafts room",
+		"bundle": "Exotic Foraging Bundle (5)",
+		"details": "caves, secret woods foraging"
+	},
+	{
+		"seasons": [],
+		"item": "Red Mushroom",
+		"room": "Bulletin Board",
+		"bundle": "Dye Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall", "summer"],
+		"item": "Red Snapper",
+		"room": "Fish Tank",
+		"bundle": "Ocean Fish Bundle (4)",
+		"details": "ocean/beach farm, summer/fall, raining"
+	},
+	{
+		"seasons": [],
+		"item": "Sandfish",
+		"room": "Fish Tank",
+		"bundle": "Specialty Fish Bundle (4)",
+		"details": "desert, any season"
+	},
+	{
+		"seasons": ["winter", "fall", "spring"],
+		"item": "Sardine",
+		"room": "Fish Tank",
+		"bundle": "Ocean Fish Bundle (4)",
+		"details": "ocean, spring/fall/winter"
+	},
+	{
+		"seasons": [],
+		"item": "Sea Urchin",
+		"room": "Bulletin Board",
+		"bundle": "Dye Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall", "summer"],
+		"item": "Shad",
+		"room": "Fish Tank",
+		"bundle": "River Fish Bundle (4)",
+		"details": "river, sprint/summer/fall, raining"
+	},
+	{
+		"seasons": [],
+		"item": "Shrimp",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Slime x99",
+		"room": "Boiler room",
+		"bundle": "Adventurer's Bundle (2)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Snail",
+		"room": "Fish Tank",
+		"bundle": "Crab Pot Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": ["winter"],
+		"item": "Snow Yam",
+		"room": "Crafts room",
+		"bundle": "Winter Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Solar Essence",
+		"room": "Boiler room",
+		"bundle": "Adventurer's Bundle (2)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Spice Berry",
+		"room": "Crafts room",
+		"bundle": "Summer Foraging Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Stone x99",
+		"room": "Crafts room",
+		"bundle": "Construction Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["winter", "summer"],
+		"item": "Sturgeon",
+		"room": "Fish Tank",
+		"bundle": "Lake Fish Bundle (4)",
+		"details": "mountain lake, summer/winter, most common on sunny summer days, farther from shore"
+	},
+	{
+		"seasons": ["summer", "spring"],
+		"item": "Sunfish",
+		"room": "Fish Tank",
+		"bundle": "River Fish Bundle (4)",
+		"details": "river, spring/summer, 6am-7pm"
+	},
+	{
+		"seasons": ["summer", "fall"],
+		"item": "Sunflower",
+		"room": "Bulletin Board",
+		"bundle": "Dye Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Sweet Pea",
+		"room": "Crafts room",
+		"bundle": "Summer Foraging Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": ["winter", "fall"],
+		"item": "Tiger Trout",
+		"room": "Fish Tank",
+		"bundle": "River Fish Bundle (4)",
+		"details": "river, fall/winter"
+	},
+	{
+		"seasons": ["fall", "summer"],
+		"item": "Tilapia",
+		"room": "Fish Tank",
+		"bundle": "Ocean Fish Bundle (4)",
+		"details": "ocean, summer/fall"
+	},
+	{
+		"seasons": ["summer"],
+		"item": "Tomato",
+		"room": "Pantry",
+		"bundle": "Summer Crops Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Truffle",
+		"room": "Bulletin Board",
+		"bundle": "Chef's Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Truffle Oil",
+		"room": "Pantry",
+		"bundle": "Artisan Bundle (6)",
+		"details": ""
+	},
+	{
+		"seasons": ["winter", "summer"],
+		"item": "Tuna",
+		"room": "Fish Tank",
+		"bundle": "Ocean Fish Bundle (4)",
+		"details": "ocean, summer/winter"
+	},
+	{
+		"seasons": [],
+		"item": "Void Essence",
+		"room": "Boiler room",
+		"bundle": "Adventurer's Bundle (2)",
+		"details": ""
+	},
+	{
+		"seasons": ["winter", "fall"],
+		"item": "Walleye",
+		"room": "Fish Tank",
+		"bundle": "Night Fishing Bundle (3)",
+		"details": "river, mountain lake, forest pond, fall/winter, rain"
+	},
+	{
+		"seasons": ["summer", "fall"],
+		"item": "Wheat x10",
+		"room": "Bulletin Board",
+		"bundle": "Fodder Bundle (3)",
+		"details": ""
+	},
+	{
+		"seasons": ["spring"],
+		"item": "Wild Horseradish",
+		"room": "Crafts room",
+		"bundle": "Spring Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Wild Plum",
+		"room": "Crafts room",
+		"bundle": "Fall Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Wine",
+		"room": "Bulletin Board",
+		"bundle": "Enchanter's Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": ["winter"],
+		"item": "Winter Root",
+		"room": "Crafts room",
+		"bundle": "Winter Foraging Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Wood x198*",
+		"room": "Crafts room",
+		"bundle": "Construction Bundle (4)",
+		"details": ""
+	},
+	{
+		"seasons": [],
+		"item": "Woodskip",
+		"room": "Fish Tank",
+		"bundle": "Specialty Fish Bundle (4)",
+		"details": "secret woods pond, any season, better chance of catching on non-rainy days, farther from shore"
+	},
+	{
+		"seasons": [],
+		"item": "Wool",
+		"room": "Pantry",
+		"bundle": "Animal Bundle (5)",
+		"details": ""
+	},
+	{
+		"seasons": ["fall"],
+		"item": "Yam",
+		"room": "Pantry",
+		"bundle": "Fall Crops Bundle (4)",
+		"details": ""
+	}
+]
