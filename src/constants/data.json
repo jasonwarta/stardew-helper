@@ -6,7 +6,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Vault Bundle",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "60df5664-5b04-4979-87c7-1e8a1376788e",
@@ -15,7 +17,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Vault Bundle",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "870ece4d-b14d-43ac-9af6-5ed6960f832e",
@@ -24,7 +28,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Vault Bundle",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "2d44a077-81e4-4f99-a36c-4cbfb1dc8b32",
@@ -33,7 +39,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Vault Bundle",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "725e4e24-b222-464e-8f23-91914390e00e",
@@ -42,7 +50,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "adc2b8f3-179c-4cbb-8f73-1050defc56f1",
@@ -51,7 +61,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Fodder Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "17dfd37a-aa03-428f-910a-48bb197f4667",
@@ -60,7 +72,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "4c34473c-d44e-4a89-979c-508a51d19182",
@@ -69,7 +83,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Dye Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "d58decb8-051c-4c85-a348-e38913f45bb4",
@@ -78,7 +94,9 @@
 		"room": "Boiler room",
 		"bundle": "Adventurer's Bundle (2)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "0b34b835-b38e-4829-8773-9357de80b98e",
@@ -87,7 +105,9 @@
 		"room": "Crafts room",
 		"bundle": "Fall Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "b3b0d409-aa2a-405d-8172-36fa2274d258",
@@ -96,7 +116,9 @@
 		"room": "Pantry",
 		"bundle": "Summer Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "dd5c20b6-81d7-4eda-bc27-9f4984002055",
@@ -105,7 +127,9 @@
 		"room": "Fish Tank",
 		"bundle": "Night Fishing Bundle (3)",
 		"details": "river, all seasons, after 6pm",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "770a028d-8c22-4834-b96e-c54ef386c1a8",
@@ -114,7 +138,9 @@
 		"room": "Fish Tank",
 		"bundle": "Lake Fish Bundle (4)",
 		"details": "mountain lake, all seasons",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "5a55c717-8dad-4963-bad4-a84f1aecfc25",
@@ -123,7 +149,9 @@
 		"room": "Crafts room",
 		"bundle": "Exotic Foraging Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "6f33ccd3-8d3a-4198-b2ee-34f3d59be1d9",
@@ -132,7 +160,9 @@
 		"room": "Fish Tank",
 		"bundle": "Lake Fish Bundle (4)",
 		"details": "mountain lake, spring, summer, fall",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "e78fdafb-6a9e-41f2-9610-eed39d2a7429",
@@ -141,7 +171,9 @@
 		"room": "Fish Tank",
 		"bundle": "River Fish Bundle (4)",
 		"details": "river, secret woods, spring/fall, when raining",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "467e966f-4ed7-4d4b-bac1-d1b10490f7b2",
@@ -150,7 +182,9 @@
 		"room": "Pantry",
 		"bundle": "Spring Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "265bf059-b843-4a3a-819d-4b50acf1c8b3",
@@ -159,7 +193,9 @@
 		"room": "Crafts room",
 		"bundle": "Exotic Foraging Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "218d7c90-3c22-4ff5-9881-e6dc9e1ddce4",
@@ -168,7 +204,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "aa6fdcfc-c6b9-455f-9c17-75015d630a8a",
@@ -177,7 +215,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "385f5028-226e-4b43-b96c-56c9b04189fe",
@@ -186,7 +226,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Field Research Bundle (4)",
 		"details": "mountain lake, forest river, all seasons",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "1652af26-467b-4eff-a5f4-8acfe19cb70b",
@@ -195,7 +237,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "e3fa745c-fc89-4399-ab97-068157f400fe",
@@ -204,7 +248,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "5d728f21-a998-439d-8b09-de6611a99eaa",
@@ -213,7 +259,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "feae7c39-df74-4dcd-9ac7-d458694ed64c",
@@ -222,7 +270,9 @@
 		"room": "Crafts room",
 		"bundle": "Exotic Foraging Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "ca8711ca-428d-4ea2-8e9a-a48c92f48afe",
@@ -231,7 +281,9 @@
 		"room": "Crafts room",
 		"bundle": "Fall Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "8861400c-7296-48f0-9f27-73bc3a6047f0",
@@ -240,7 +292,9 @@
 		"room": "Boiler room",
 		"bundle": "Blacksmith's Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "bc15ac72-0f20-4b11-9b71-4642ab812f2a",
@@ -249,7 +303,9 @@
 		"room": "Pantry",
 		"bundle": "Fall Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "b5b388ab-3e56-4b3d-8d01-eb7ae321c60e",
@@ -258,7 +314,9 @@
 		"room": "Pantry",
 		"bundle": "Quality Crops Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "7f0c950f-bcdc-4402-81d4-c8ec77c8a317",
@@ -267,7 +325,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "f2c293d9-9c65-48be-ae93-e01cffeb570f",
@@ -276,7 +336,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "2ac808bb-d643-4fc3-90c9-a999068a93d7",
@@ -285,7 +347,9 @@
 		"room": "Crafts room",
 		"bundle": "Winter Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "c1535274-3730-41c3-96fe-02e5cc656b55",
@@ -294,7 +358,9 @@
 		"room": "Crafts room",
 		"bundle": "Winter Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "c2892e6b-c787-459a-9761-dd38b36f9432",
@@ -303,7 +369,9 @@
 		"room": "Crafts room",
 		"bundle": "Spring Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "3402fab2-4ef9-4aea-9955-083bc34800f8",
@@ -312,7 +380,9 @@
 		"room": "Crafts room",
 		"bundle": "Spring Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "f0bdaf1c-a009-4568-8c03-69c2c6c455b0",
@@ -321,7 +391,9 @@
 		"room": "Pantry",
 		"bundle": "Animal Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "0b625f93-0ae8-4169-9b98-9558ccc5d7a1",
@@ -330,7 +402,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Dye Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "4442b3d4-6569-43e9-b1bc-0744a6554a4d",
@@ -339,7 +413,9 @@
 		"room": "Boiler room",
 		"bundle": "Geologist's Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "8415ab95-5b92-46e2-a581-320d82422e88",
@@ -348,7 +424,9 @@
 		"room": "Fish Tank",
 		"bundle": "Night Fishing Bundle (3)",
 		"details": "ocean/beach farm, spring/fall, when raining, from 4pm to 2pm",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "ec12954e-3211-4f95-9e62-e581a714865d",
@@ -357,7 +435,9 @@
 		"room": "Pantry",
 		"bundle": "Animal Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "6041828e-1036-4872-a9dc-9ea9011bbff1",
@@ -366,7 +446,9 @@
 		"room": "Pantry",
 		"bundle": "Animal Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "b6d1d37e-5e5c-445d-8f5a-fba1b06efbfa",
@@ -375,7 +457,9 @@
 		"room": "Pantry",
 		"bundle": "Fall Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "344190ef-4e27-466f-8b1b-ff06138c0590",
@@ -384,7 +468,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Chef's Bundle (6)",
 		"details": "foraging in secret woods",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "5fe0a7a5-19b4-4792-8993-9038f847782b",
@@ -393,7 +479,9 @@
 		"room": "Boiler room",
 		"bundle": "Geologist's Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "5bec0bfd-b3d3-4fbf-a23a-02d629e780cb",
@@ -402,7 +490,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Chef's Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "c5e41eab-4e68-4b8c-86b3-cc089311f5f2",
@@ -411,7 +501,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Field Research Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "7922991d-3e19-4964-b105-ca2b58a4548e",
@@ -420,7 +512,9 @@
 		"room": "Boiler room",
 		"bundle": "Geologist's Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "1d00500a-cd0f-4281-a03a-2b6e29e7e773",
@@ -429,7 +523,9 @@
 		"room": "Fish Tank",
 		"bundle": "Specialty Fish Bundle (4)",
 		"details": "in the mine, 20th or 60th floor, any season",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "0434c028-7013-4b1c-b066-394efdaa0a18",
@@ -438,7 +534,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "1aebbfb2-9a0f-4573-8ea6-b3dae2b6e815",
@@ -447,7 +545,9 @@
 		"room": "Pantry",
 		"bundle": "Animal Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "6e158924-2e8a-464d-8c0d-1a45cdd462d0",
@@ -456,7 +556,9 @@
 		"room": "Boiler room",
 		"bundle": "Blacksmith's Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "e3a9b78b-91f2-47ff-9831-58a16a14bcd4",
@@ -465,7 +567,9 @@
 		"room": "Crafts room",
 		"bundle": "Summer Foraging Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "92c373fa-e37a-438a-8126-319c86640cd7",
@@ -474,7 +578,9 @@
 		"room": "Pantry",
 		"bundle": "Spring Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "28e77577-c8be-4d3d-ac34-ee910cf3a874",
@@ -483,7 +589,9 @@
 		"room": "Crafts room",
 		"bundle": "Construction Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "f2763d61-60a0-428e-b06e-946cf5005a75",
@@ -492,7 +600,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Fodder Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "f925b1ae-f831-4391-b421-d3e90e7ccef9",
@@ -501,7 +611,9 @@
 		"room": "Crafts room",
 		"bundle": "Fall Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "b84130e2-1ce8-420d-837a-988b9eeb9915",
@@ -510,7 +622,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "96ddbcfb-b7a8-4386-8554-8676923d7e3c",
@@ -519,7 +633,9 @@
 		"room": "Pantry",
 		"bundle": "Summer Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "117a815f-5c90-496c-8a96-bd504ff5ef92",
@@ -528,7 +644,9 @@
 		"room": "Boiler room",
 		"bundle": "Blacksmith's Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "59b17580-1ea6-4f70-9029-876bfc2703eb",
@@ -537,7 +655,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "49c0e471-92d2-47f9-87fd-21ca0513463c",
@@ -546,7 +666,9 @@
 		"room": "Fish Tank",
 		"bundle": "Lake Fish Bundle (4)",
 		"details": "mountain lake, all seasons, usually farther from shore",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "fa073cdb-7e43-410b-8a1a-4d49e78744e2",
@@ -555,7 +677,9 @@
 		"room": "Crafts room",
 		"bundle": "Spring Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "6053d838-e97e-4c96-9f5d-3410919533b0",
@@ -564,7 +688,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "6fee89d4-8dad-454e-b860-98dbd6b9c0cf",
@@ -573,7 +699,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Chef's Bundle (6)",
 		"details": "recipe from Queen of Sauce or the Saloon",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "bb5d99b6-d4d2-45df-aea4-d25fb89050ee",
@@ -582,7 +710,9 @@
 		"room": "Crafts room",
 		"bundle": "Exotic Foraging Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "17000561-f205-468d-a02d-1c69eb7b2e40",
@@ -591,7 +721,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Chef's Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "50e7a89f-b7c7-4da0-a92f-d319402558c9",
@@ -600,7 +732,9 @@
 		"room": "Pantry",
 		"bundle": "Summer Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "6d83a470-ae94-4c3d-b532-2340adb1031c",
@@ -609,7 +743,9 @@
 		"room": "Pantry",
 		"bundle": "Quality Crops Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "40740d65-500a-4a4c-b62d-4c00f048f168",
@@ -618,7 +754,9 @@
 		"room": "Pantry",
 		"bundle": "Animal Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "cac7c9bf-f027-4b7f-81a9-07ab378790e7",
@@ -627,7 +765,9 @@
 		"room": "Crafts room",
 		"bundle": "Exotic Foraging Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "9169c3be-9045-40d5-8e97-81ecfb7e183a",
@@ -636,7 +776,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "b10b7fd6-ee6e-4688-830d-8be9193ce439",
@@ -645,7 +787,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Field Research Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "7e9bd771-03c4-4b03-aa47-7128123d8bd6",
@@ -654,7 +798,9 @@
 		"room": "Crafts room",
 		"bundle": "Exotic Foraging Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "3eeb863f-f74f-4c4b-abdc-287af005eba0",
@@ -663,7 +809,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Enchanter's Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "1c40a23a-e7ac-4837-88f2-00e5cbc4d7b1",
@@ -672,7 +820,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "a142d562-e59e-45d1-8820-f04853891900",
@@ -681,7 +831,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "609a0171-d079-4bc2-8ef4-3d2f9cf9dc27",
@@ -690,7 +842,9 @@
 		"room": "Pantry",
 		"bundle": "Quality Crops Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "392d8e29-9f62-4aa4-ae0b-dde4fd44b49a",
@@ -699,7 +853,9 @@
 		"room": "Pantry",
 		"bundle": "Spring Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "2a3501e7-e15a-4445-a87b-577714e7a340",
@@ -708,7 +864,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "aff1cb22-07ae-463e-a7d7-eef2dfadb666",
@@ -717,7 +875,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "2a48671c-b846-4b93-992a-de37680a05de",
@@ -726,7 +886,9 @@
 		"room": "Crafts room",
 		"bundle": "Exotic Foraging Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "b3f9c69b-f1aa-44b0-b5f2-cde6483c835b",
@@ -735,7 +897,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "9fb1a29d-aa3b-4038-8505-744cb65d29d1",
@@ -744,7 +908,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Enchanter's Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "f54eb27b-c8e3-41a3-9fa0-34ccf91e44ec",
@@ -753,7 +919,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Chef's Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "0c5addad-1017-46ea-a202-7988a5ca183c",
@@ -762,7 +930,9 @@
 		"room": "Pantry",
 		"bundle": "Spring Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "552fae7f-d129-4937-b2d5-0669fdea6afa",
@@ -771,7 +941,9 @@
 		"room": "Fish Tank",
 		"bundle": "Specialty Fish Bundle (4)",
 		"details": "beach, summer, sunny days, between 12pm and 4pm",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "6ae0816b-8cd8-4c94-99a1-fd8998c96bc2",
@@ -780,7 +952,9 @@
 		"room": "Pantry",
 		"bundle": "Fall Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "f22a1b18-7929-483c-a9d5-92d374161ab3",
@@ -789,7 +963,9 @@
 		"room": "Pantry",
 		"bundle": "Quality Crops Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "011420ab-1fb5-4b91-ba16-69c5fa23331a",
@@ -798,7 +974,9 @@
 		"room": "Crafts room",
 		"bundle": "Exotic Foraging Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "5bab62ed-0077-4655-a21b-73d06ee627a3",
@@ -807,7 +985,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Field Research Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "0a3353a5-4323-4704-956f-16800e7d4147",
@@ -816,7 +996,9 @@
 		"room": "Boiler room",
 		"bundle": "Geologist's Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "56e4f900-e744-4737-bf44-ea0468c3ba3a",
@@ -825,7 +1007,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Enchanter's Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "ab67b0bd-d234-4490-a7ff-c8205d3aeec4",
@@ -834,7 +1018,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Dye Bundle (6)",
 		"details": "buy seeds from General Store in year 2+",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "52f4ae93-a730-4105-8c31-4a446eb21950",
@@ -843,7 +1029,9 @@
 		"room": "Crafts room",
 		"bundle": "Exotic Foraging Bundle (5)",
 		"details": "caves, secret woods foraging",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "ff89640e-bb6c-4e1e-80e6-91dbfd70de80",
@@ -852,7 +1040,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Dye Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "6d95d4ad-e21b-42b5-b14b-a815a0c8b5bc",
@@ -861,7 +1051,9 @@
 		"room": "Fish Tank",
 		"bundle": "Ocean Fish Bundle (4)",
 		"details": "ocean/beach farm, summer/fall, raining",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "23b4fe74-7dc3-4673-bf9f-2bb42c30199c",
@@ -870,7 +1062,9 @@
 		"room": "Fish Tank",
 		"bundle": "Specialty Fish Bundle (4)",
 		"details": "desert, any season",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "ed8ab1ef-2c74-4ab3-8a38-fabddaceffa8",
@@ -879,7 +1073,9 @@
 		"room": "Fish Tank",
 		"bundle": "Ocean Fish Bundle (4)",
 		"details": "ocean, spring/fall/winter",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "4c039275-323b-4f05-b8ef-322bc661faec",
@@ -888,7 +1084,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Dye Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "c804b0cf-2a59-4d46-ab29-7c1c944cc439",
@@ -897,7 +1095,9 @@
 		"room": "Fish Tank",
 		"bundle": "River Fish Bundle (4)",
 		"details": "river, sprint/summer/fall, raining",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "c0495f8f-baff-4fcd-96c8-fd72cbdc13c0",
@@ -906,7 +1106,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "db28e8f7-dfc2-4625-a48c-9c9fbd331026",
@@ -915,7 +1117,9 @@
 		"room": "Boiler room",
 		"bundle": "Adventurer's Bundle (2)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "1c48aa6c-cb44-4673-96eb-67471f67b3ad",
@@ -924,7 +1128,9 @@
 		"room": "Fish Tank",
 		"bundle": "Crab Pot Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "4a1edf15-2135-4fa0-8614-9ece0fdd3185",
@@ -933,7 +1139,9 @@
 		"room": "Crafts room",
 		"bundle": "Winter Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "9e7cb5d8-b895-40fb-b0e6-edbc52d3b69a",
@@ -942,7 +1150,9 @@
 		"room": "Boiler room",
 		"bundle": "Adventurer's Bundle (2)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "a583a28c-a3eb-4153-88b7-25df398f88b6",
@@ -951,7 +1161,9 @@
 		"room": "Crafts room",
 		"bundle": "Summer Foraging Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "d1f18d34-37c5-416d-8af7-f3c70bb628a9",
@@ -960,7 +1172,9 @@
 		"room": "Crafts room",
 		"bundle": "Construction Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "0a6039ec-a448-4ad5-9b16-088cbcc3eb82",
@@ -969,7 +1183,9 @@
 		"room": "Fish Tank",
 		"bundle": "Lake Fish Bundle (4)",
 		"details": "mountain lake, summer/winter, most common on sunny summer days, farther from shore",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "3e03ae1c-2da9-4e62-8f37-38326b3eefcc",
@@ -978,7 +1194,9 @@
 		"room": "Fish Tank",
 		"bundle": "River Fish Bundle (4)",
 		"details": "river, spring/summer, 6am-7pm",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "da6c1b40-7376-42af-a0aa-0c1519e44168",
@@ -987,7 +1205,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Dye Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "4e4c7941-4318-4abd-a160-f2e4c5ca950e",
@@ -996,7 +1216,9 @@
 		"room": "Crafts room",
 		"bundle": "Summer Foraging Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "40c2b849-1605-49e5-84ea-b57c00891393",
@@ -1005,7 +1227,9 @@
 		"room": "Fish Tank",
 		"bundle": "River Fish Bundle (4)",
 		"details": "river, fall/winter",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "211428f6-2561-4d4b-b1f6-7de9349df8f3",
@@ -1014,7 +1238,9 @@
 		"room": "Fish Tank",
 		"bundle": "Ocean Fish Bundle (4)",
 		"details": "ocean, summer/fall",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "a6255e6c-e63b-40d1-baa8-e2297899963c",
@@ -1023,7 +1249,9 @@
 		"room": "Pantry",
 		"bundle": "Summer Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "30a6c696-6621-4e5c-a508-8c9e76fcfa45",
@@ -1032,7 +1260,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Chef's Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "7745a37d-96e6-48c4-a21e-ecc5cd9ebcdf",
@@ -1041,7 +1271,9 @@
 		"room": "Pantry",
 		"bundle": "Artisan Bundle (6)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "a1de4092-4d4c-434a-a50f-ef63f98925ff",
@@ -1050,7 +1282,9 @@
 		"room": "Fish Tank",
 		"bundle": "Ocean Fish Bundle (4)",
 		"details": "ocean, summer/winter",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "3449de2d-aa84-4b35-b09f-d4ff7075894e",
@@ -1059,7 +1293,9 @@
 		"room": "Boiler room",
 		"bundle": "Adventurer's Bundle (2)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "9643a946-2206-495b-b760-6b00275de7e1",
@@ -1068,7 +1304,9 @@
 		"room": "Fish Tank",
 		"bundle": "Night Fishing Bundle (3)",
 		"details": "river, mountain lake, forest pond, fall/winter, rain",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "b4328bbd-63de-4856-ad0a-875d1f52be24",
@@ -1077,7 +1315,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Fodder Bundle (3)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "aabef288-b5e5-4b30-b143-9512fac147bc",
@@ -1086,7 +1326,9 @@
 		"room": "Crafts room",
 		"bundle": "Spring Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "d435408f-5c4c-430f-b6a8-fe880f0781a2",
@@ -1095,7 +1337,9 @@
 		"room": "Crafts room",
 		"bundle": "Fall Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "540aa195-fafd-434d-868d-fdb87b94a520",
@@ -1104,7 +1348,9 @@
 		"room": "Bulletin Board",
 		"bundle": "Enchanter's Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "e454cb05-c9f1-443b-b90f-7125501f3a4f",
@@ -1113,7 +1359,9 @@
 		"room": "Crafts room",
 		"bundle": "Winter Foraging Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "9bd7bd93-63fd-4309-b483-eda522575912",
@@ -1122,7 +1370,9 @@
 		"room": "Crafts room",
 		"bundle": "Construction Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "681fa5ff-dc5a-4a80-beaa-48f65cc89f7e",
@@ -1131,7 +1381,9 @@
 		"room": "Fish Tank",
 		"bundle": "Specialty Fish Bundle (4)",
 		"details": "secret woods pond, any season, better chance of catching on non-rainy days, farther from shore",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "3ae07857-e9f0-4c3b-a06d-9072ee374c69",
@@ -1140,7 +1392,9 @@
 		"room": "Pantry",
 		"bundle": "Animal Bundle (5)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	},
 	{
 		"id": "9f9ce868-eeb5-4792-a847-eb1c1de3f9fa",
@@ -1149,6 +1403,8 @@
 		"room": "Pantry",
 		"bundle": "Fall Crops Bundle (4)",
 		"details": "",
-		"show": true
+		"show": true,
+		"collected": false,
+		"submitted": false
 	}
 ]

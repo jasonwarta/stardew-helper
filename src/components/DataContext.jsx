@@ -2,6 +2,8 @@ import React, { useReducer, createContext, useMemo } from 'react';
 
 const data = require('constants/data');
 
+const localStorageKey = 'stardew-helper';
+
 export const DataContext = createContext(null);
 
 export const TOGGLE_COLLECTED = 'TOGGLE_COLLECTED';
@@ -43,15 +45,16 @@ const reducer = (state, action) => {
 			return action.value;
 
 		case RESET_DATA:
-			const localData = localStorage.getItem('stardew-helper');
-			if (localData) {
-				return JSON.parse(localData).map((item) => ({ ...item, show: true }));
-			} else return data;
+			return getData();
+		// const localData = localStorage.getItem('stardew-helper');
+		// if (localData) {
+		// 	return JSON.parse(localData).map((item) => ({ ...item, show: true }));
+		// } else return data;
 
 		case FILTER_AND: {
 			const { filters, term } = action.value;
 
-			return data.map((item) => {
+			return state.map((item) => {
 				const matchedSeason = filters.reduce(
 					(prev, curr) => item.seasons.includes(curr) && prev,
 					true
@@ -62,6 +65,18 @@ const reducer = (state, action) => {
 				const matchedTerm = Object.keys(item).reduce((prev, curr) => {
 					if (typeof item[curr] === 'string' && item[curr].toLowerCase().includes(term))
 						return prev || true;
+
+					if (typeof item[curr] === 'boolean') {
+						if (term.endsWith(curr)) {
+							if (term.startsWith('is:') && Boolean(item[curr]) === true) {
+								return prev || true;
+							}
+							if (term.startsWith('not:') && Boolean(item[curr]) === false) {
+								return prev || true;
+							}
+						}
+					}
+
 					if (typeof item[curr] === 'object') {
 						for (const l of Object.keys(item[curr])) {
 							if (item[curr][l].includes(term)) return prev || true;
@@ -90,6 +105,18 @@ const reducer = (state, action) => {
 					for (const k of Object.keys(item)) {
 						if (typeof item[k] === 'string' && item[k].toLowerCase().includes(term))
 							return { ...item, show: true };
+
+						if (typeof item[k] === 'boolean') {
+							if (term.endsWith(k)) {
+								if (term.startsWith('is:') && Boolean(item[k]) === true) {
+									return { ...item, show: true };
+								}
+								if (term.startsWith('not:') && Boolean(item[k]) === false) {
+									return { ...item, show: true };
+								}
+							}
+						}
+
 						if (typeof item[k] === 'object') {
 							for (const l of Object.keys(item[k])) {
 								if (item[k][l].includes(term)) return { ...item, show: true };
@@ -109,17 +136,27 @@ const reducer = (state, action) => {
 	}
 };
 
+const storeData = (data) => {
+	localStorage.setItem(localStorageKey, JSON.stringify(data));
+};
+
+const getData = () => {
+	const localData = localStorage.getItem('stardew-helper');
+	if (localData) {
+		return JSON.parse(localData).map((item) => ({ ...item, show: true }));
+	} else return data;
+};
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ({ children }) => {
 	const persistChangesToLocalStorage = (...args) => {
 		const res = reducer(...args);
 		const [, { type }] = args;
-		if (type === TOGGLE_SUBMITTED || type === TOGGLE_COLLECTED)
-			localStorage.setItem('stardew-helper', JSON.stringify(res));
+		if (type === TOGGLE_SUBMITTED || type === TOGGLE_COLLECTED) storeData(res);
 		return res;
 	};
 
-	const [state, dispatch] = useReducer(persistChangesToLocalStorage, data);
+	const [state, dispatch] = useReducer(persistChangesToLocalStorage, getData());
 
 	const contextValue = useMemo(() => ({ state, dispatch }), [state, dispatch]);
 
