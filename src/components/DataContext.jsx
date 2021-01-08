@@ -36,6 +36,7 @@ const reducer = (state, action) => {
 				...state.slice(0, idx),
 				{
 					...state[idx],
+					colleted: true,
 					submitted: !Boolean(state[idx].submitted),
 				},
 				...state.slice(idx + 1),
