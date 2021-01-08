@@ -95,7 +95,7 @@ const reducer = (state, action) => {
 		case FILTER_OR: {
 			const { filters, term } = action.value;
 
-			return data.map((item) => {
+			return state.map((item) => {
 				for (const f of filters) {
 					if (item.seasons.includes(f)) return { ...item, show: true };
 					else if (filters.includes('any') && item.seasons.length === 0)
